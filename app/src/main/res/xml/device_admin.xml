@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Policies are only read when the profile is provisioned (or at boot), never on an
+    app update, so everything STARK needs must be declared here before provisioning.
+-->
+<device-admin>
+    <uses-policies>
+        <force-lock />
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>
